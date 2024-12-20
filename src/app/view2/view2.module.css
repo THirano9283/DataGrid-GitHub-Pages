@@ -1,0 +1,16 @@
+.row-layout {
+  display: flex;
+}
+.view-2-container {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  height: 100%;
+}
+.group {
+  min-width: 250px;
+  min-height: 250px;
+  flex-grow: 1;
+  flex-basis: 0;
+  > * { height: 100%; width: 100%; }
+}
